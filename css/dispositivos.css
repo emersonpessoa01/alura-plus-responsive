@@ -26,11 +26,14 @@
   background: var(--cor-de-fundo);
   cursor: pointer;
   color: #fff;
+  border:var(--border-branco);
+ 
 }
 .dispositivos .dispositivos__lista .box:hover .lista__item {
   color: #fff;
   text-shadow: 0 0 5px #03e9f4;
   transition: all 0.5s ease;
+  
 }
 
 .dispositivos .dispositivos__lista .box img {

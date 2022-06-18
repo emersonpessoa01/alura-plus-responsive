@@ -8,6 +8,7 @@
   --botao-azul-efeito: #3c92fa;
   --titulo: #dd0031;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --border-branco: 0.1rem solid #fff;
 }
 * {
   font-family: "Inter", sans-serif;
@@ -56,4 +57,3 @@ section,
 footer {
   padding: 2rem 7%;
 }
-
