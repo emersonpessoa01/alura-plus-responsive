@@ -32,7 +32,8 @@
   .container__caixa .container__imagem {
     margin: 0 auto;
     padding-bottom: 2.5rem;
-    height: 6rem;
+    width: 60%;
+    height: 60%;
   }
 
   .container__caixa .container__botao,
@@ -46,4 +47,9 @@
     html{
         font-size: 40%;
     }
+    /* .principal{
+        background-position: right;
+        justify-content: center;
+        text-align: center;
+    } */
 }
