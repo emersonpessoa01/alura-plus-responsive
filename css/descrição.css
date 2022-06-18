@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--preto-azulado);
   flex-wrap: wrap;
-  border-radius: 5px;
+  border-radius: .7rem;
   padding: 2rem;
+  background: var(--preto-azulado);
 }
+
 .container .row .image {
   flex: 1 1 45rem;
   padding: 2rem;
