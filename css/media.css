@@ -1,0 +1,49 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 2rem;
+  }
+  .principal {
+    background-position: right;
+    justify-content: center;
+    text-align: center;
+  }
+  .container__caixa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container__caixa .container__titulo {
+    max-width: 100%;
+  }
+  
+  .container__caixa .container__imagem {
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+    height: 6rem;
+  }
+
+  .container__caixa .container__botao,
+  .botao_secundario {
+    width: 100%;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+  }
+}
+@media(max-width:450px){
+    html{
+        font-size: 40%;
+    }
+}
