@@ -10,13 +10,26 @@
   text-transform: uppercase;
 }
 .dispositivos .dispositivos__lista {
-  display: grid;
-  border-radius: 0.7rem;
+  /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  border-radius: 0.7rem;
+  list-style: none;
+  gap: 1.5rem; */
+
+  /* acrescentado */
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 100rem; */
+  max-width: 100%;
+  margin: 0 auto;
   list-style: none;
   gap: 1.5rem;
+  
 }
 .dispositivos .dispositivos__lista .box {
+  flex: 1 1 26.25rem; /* acrescentado */
+  /* width: 25rem; */
+  /* width: 100%; acrescentado */
   padding: 5rem;
   text-align: center;
   border: var(--border);

@@ -28,7 +28,7 @@
   .container__caixa .container__titulo {
     max-width: 100%;
   }
-  
+
   .container__caixa .container__imagem {
     margin: 0 auto;
     padding-bottom: 2.5rem;
@@ -42,13 +42,27 @@
     padding: 1.5rem;
     padding-bottom: 1rem;
   }
-  
+
+  .dispositivos .dispositivos__lista .box .lista__item {
+    word-break: break-all;
+    font-size: 1rem;
+  }
 }
-@media(max-width:450px){
-    html{
-        font-size: 40%;
-    }
-    /* .principal{
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+  .dispositivos {
+    width: 100%;
+  }
+  .dispositivos .dispositivos__titulo {
+    font-size: 2rem;
+  }
+  .dispositivos .dispositivos__lista .box .lista__item {
+    font-size: 1rem;
+  }
+
+  /* .principal{
         background-position: right;
         justify-content: center;
         text-align: center;
