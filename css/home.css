@@ -43,6 +43,32 @@
   background-color: var(--botao-azul-efeito);
   color: var(--cor-de-fundo);
 }
+
+ 
+.container__caixa .botao_secundario {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: box-shadow 1s ease;
+}
+.container__caixa .botao_secundario.blue {
+  background-color: transparent;
+  color: var(--color-logo);
+  border: 2px solid var(--color-logo);
+}
+
+.container__caixa .botao_secundario:hover {
+  background: transparent;
+  border: 2px solid var(--color-logo);
+  transition: 0.3s all ease;
+  box-shadow: inset 400px 0 0 var(--color-logo);
+  color: #fff;
+} 
 .container__caixa .botao_secundario {
   background-color: transparent;
   border: 2px solid var(--branco-principal);

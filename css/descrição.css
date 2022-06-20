@@ -39,18 +39,27 @@
   margin-top: 1rem;
   line-height: 1.5;
 }
-.container .row .container__descricao .container__botao {
-  background: transparent;
-  border-radius: 5px;
-  padding: 1rem;
-  color: var(--branco-principal);
-  display: inline-block; /* não ocupa todo bloco */
-  text-decoration: none;
-  margin: 2rem 0;
-  text-align: center;
-  border: 2px solid var(--branco-principal);
+.botao_combo {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: box-shadow 1s ease;
 }
-.container .row .container__descricao .container__botao:hover {
-  background-color: var(--botao-azul-efeito);
-  color: var(--cor-de-fundo);
+.botao_combo.blue {
+  background-color: transparent;
+  color: var(--color-logo);
+  border: 2px solid var(--color-logo);
+}
+
+.botao_combo:hover {
+  background: transparent;
+  border: 2px solid var(--color-logo);
+  transition: 0.3s all ease;
+  box-shadow: inset 220px 0 0 var(--color-logo);
+  color: #fff;
 }
