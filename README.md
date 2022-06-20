@@ -1,7 +1,7 @@
 # Alura Plus Responsivo
 ### Website Alura Plus Responsivo
 
- <p>Site responsivo usando HTML, CSS e JavaScript. Possui um header que contém um cabeçalho com link de início,destaque, novidades, avaliações e blogs.</p>
+ <p>Site responsivo usando HTML, CSS e JavaScript. Possui um header com links de início, seu jeito, combo, cursos, dispositivos e sobre.</p>
 
 ## Pré-visualização:
 
