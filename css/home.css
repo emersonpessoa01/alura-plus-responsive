@@ -33,6 +33,7 @@
   background-color: var(--botao-azul);
   border-radius: 0.5rem;
   padding: 1.5rem;
+  height: 5rem;
   color: var(--branco-principal);
   text-decoration: none;
   margin-bottom: 1rem;
@@ -66,7 +67,7 @@
   background: transparent;
   border: 2px solid var(--color-logo);
   transition: 0.3s all ease;
-  box-shadow: inset 400px 0 0 var(--color-logo);
+  box-shadow: inset 650px 0 0 var(--color-logo);
   color: #fff;
 } 
 .container__caixa .botao_secundario {
