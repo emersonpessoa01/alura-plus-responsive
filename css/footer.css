@@ -102,7 +102,7 @@
 }
 .footer-newsletter button:hover {
   background: var(--purple-clear);
-  color: var(--white-ice);
+  color: var(--blue-dark);
 }
 .divider {
   border: 1px solid var(--purple-clear);
