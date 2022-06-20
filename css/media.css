@@ -92,12 +92,13 @@
     width: 18%;
   }
   .footer-wrapper .footer-newsletter input{
-    width: 45%;
-    font-size: 1.3rem;
+    width: 62.5%;
+    font-size: 1.5rem;
+    padding: 1.5rem;
     
   }
   .footer-wrapper .footer-newsletter button{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   
   /* .principal{
