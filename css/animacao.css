@@ -1,0 +1,13 @@
+/* scroll animation */
+[data-anime] {
+  opacity: 0;
+  transition: 0.7s;
+}
+[data-anime="left"] {
+  transform: scale(0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: scale(1.01);
+}
