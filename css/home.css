@@ -3,7 +3,7 @@
   padding: 80px 0;
   display: flex;
   align-items: center;
-  background: url(../img/Background.png);
+  background: url(../img/Background.png) fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
