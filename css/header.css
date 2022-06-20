@@ -23,18 +23,34 @@
   margin-left: 2rem;
 }
 .header .navbar a {
+  text-decoration: none;
   margin: 0 1rem;
   font-size: 1.8rem;
-  color: var(--white);
+  color: white;
+  padding: 1.5rem;
+  transform: 2ms ease-in;
+  display: inline-block;
 }
 .header .navbar a:nth-child(1) {
-  color: var(--blue-face);
+  color: var(--blue-claro);
+}
+.header .navbar a::after {
+  content: "";
+  display: block;
+  background: var(--blue-claro);
+  width: 0;
+  height: 2px;
+  border-radius: 4px;
+  margin: 6px auto 6px auto;
+  transition: all 0.3s ease;
+}
+.header .navbar a:hover:before,
+.header .navbar a:hover:after {
+  width: 100%;
 }
 
 .header .navbar a:hover {
-  color: var(--color-logo);
-  border-bottom: 0.1rem solid var(--color-logo);
-  padding-bottom: 0.5rem;
+  color: var(--blue-claro);
 }
 .header .icons div {
   color: var(--white);
