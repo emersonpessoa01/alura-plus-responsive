@@ -19,8 +19,8 @@
 .social-media a {
   text-decoration: none;
   color: var(--white);
-  font-size: 2rem;
-  width: 2.3rem;
+  font-size: 3rem;
+  width: 5rem;
   transition: all 0.3s ease-in-out;
 }
 .social-media a:hover:nth-child(1) {
