@@ -112,10 +112,10 @@
     padding: 2rem
   }
   .header {
-    padding: 1rem 6%;
+    padding: .8rem 6%;
   }
   .header .logo img {
-    height: 6rem;
+    height:3rem;
   }
   .header .icons div {
     font-size: 2rem;
