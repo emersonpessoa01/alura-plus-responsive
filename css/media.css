@@ -51,7 +51,9 @@
     padding: 1.5rem;
     padding-bottom: 1rem;
   }
-
+.container__caixa .container__aviso{
+  color: var(--botao-azul);
+}
   .dispositivos .dispositivos__lista .box .lista__item {
     word-break: break-all;
     font-size: 1rem;
