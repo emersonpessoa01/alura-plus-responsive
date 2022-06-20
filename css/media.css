@@ -1,18 +1,27 @@
+@media(max-width:1600px) {
+  
+  .footer-wrapper .footer-newsletter button{
+    font-size: 1.2rem;
+  }
+}
 @media (max-width: 991px) {
   html {
     font-size: 55%;
   }
-  section {
-    padding: 2rem;
+  section,
+  footer {
+    padding: 2rem
   }
+  
 }
 
 @media (max-width: 768px) {
   html {
     font-size: 55%;
   }
-  section {
-    padding: 2rem;
+  section,
+  footer {
+    padding: 2rem
   }
   .principal {
     background-position: right;
@@ -47,10 +56,25 @@
     word-break: break-all;
     font-size: 1rem;
   }
+  .rodape .image__logo img {
+    width: 20%;
+  }
+  .footer-wrapper .footer-newsletter input{
+    width: 55%;
+    font-size: 1.5rem;
+    
+  }
+  
+  .footer-wrapper .footer-newsletter button{
+    font-size: 1.3rem;
+  }
 }
 @media (max-width: 450px) {
   html {
     font-size: 40%;
+  }
+  footer {
+    padding: 2rem
   }
   .dispositivos {
     width: 100%;
@@ -61,10 +85,37 @@
   .dispositivos .dispositivos__lista .box .lista__item {
     font-size: 1rem;
   }
-
+  .rodape .image__logo img {
+    width: 18%;
+  }
+  .footer .logo img{
+    width: 18%;
+  }
+  .footer-wrapper .footer-newsletter input{
+    width: 45%;
+    font-size: 1.3rem;
+    
+  }
+  .footer-wrapper .footer-newsletter button{
+    font-size: 1.3rem;
+  }
+  
   /* .principal{
         background-position: right;
         justify-content: center;
         text-align: center;
     } */
+}
+@media(max-width:310px){
+  footer {
+    padding: 2rem
+  }
+  .footer-wrapper .footer-newsletter input{
+    width: 40%;
+    font-size: 1.2rem;
+    
+  }
+  .footer-wrapper .footer-newsletter button{
+    font-size: 1.2rem;
+  }
 }

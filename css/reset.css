@@ -9,6 +9,17 @@
   --titulo: #dd0031;
   --border: 0.1rem solid rgba(255, 255, 255, 0.3);
   --border-branco: 0.1rem solid #fff;
+
+  /* footer */
+  --blue-dark: #141c2c;
+  --blue-face: #1349c6;
+  --blue-twitter: #28a0d5;
+  --color-red: #e91e63;
+  --color: #24262b;
+  --purple-clear: #8c94b8;
+  --red-youtube: #e31917;
+  --white: #f5f5f5;
+  --white-ice: #d5d5d5;
 }
 * {
   font-family: "Inter", sans-serif;
@@ -27,12 +38,7 @@ html {
   scroll-padding-top: 9rem;
   scroll-behavior: smooth;
 }
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  scroll-padding-top: 9rem;
-  scroll-behavior: smooth;
-}
+
 
 html::-webkit-scrollbar {
   width: 0.8rem;
@@ -55,5 +61,16 @@ body {
 }
 section,
 footer {
-  padding: 2rem 7%;
+  padding: 2rem 6%;
+}
+.heading {
+  text-align: center;
+  color: var(--branco-principal);
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 3rem;
+}
+.heading span {
+  color: var(--botao-azul);
+  text-transform: uppercase;
 }

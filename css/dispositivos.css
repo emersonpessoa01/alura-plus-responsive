@@ -1,14 +1,3 @@
-.dispositivos__titulo {
-  text-align: center;
-  color: var(--branco-principal);
-  text-transform: uppercase;
-  padding-bottom: 3.5rem;
-  font-size: 3rem;
-}
-.dispositivos__titulo span {
-  color: var(--botao-azul);
-  text-transform: uppercase;
-}
 .dispositivos .dispositivos__lista {
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
