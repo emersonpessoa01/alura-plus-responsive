@@ -17,7 +17,7 @@
 
 @media (max-width: 768px) {
   html {
-    font-size: 55%;
+    /* font-size: 55%; */
   }
   section,
   footer {
@@ -71,7 +71,7 @@
 }
 @media (max-width: 450px) {
   html {
-    font-size: 40%;
+    /* font-size: 55%; */
   }
   footer {
     padding: 2rem

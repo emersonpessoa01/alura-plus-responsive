@@ -21,7 +21,7 @@
   color: var(--white);
   font-size: 4rem;
   width: 7rem;
-  /* padding-left: 3rem; */
+  padding-left: 3rem;
   transition: all 0.3s ease-in-out;
 }
 .social-media a:hover:nth-child(1) {
