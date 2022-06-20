@@ -7,5 +7,5 @@
 
 [alura-plus-responsivo](https://alura-plus-responsive.netlify.app/)
 
-<div align="center"><img src="img/Background.png" width=auto>
+<div align="center"><img src="img/aluraplus-home.png" width=auto>
 </div>
