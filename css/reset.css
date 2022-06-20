@@ -16,12 +16,37 @@
   --blue-dark: #141c2c;
   --blue-face: #1349c6;
   --blue-twitter: #28a0d5;
+  --black: #13131a;
   --color-red: #e91e63;
   --color: #24262b;
   --purple-clear: #8c94b8;
   --red-youtube: #e31917;
   --white: #f5f5f5;
   --white-ice: #d5d5d5;
+
+  --blue-clear: #547ec7;
+  --blue-claro: #89c9f4;
+  --color-logo: #1f9cee;
+  --main-color: #d3ad7f;
+
+ 
+  --black: #13131a;
+  --blue-dark: #162235;
+  --background: #fefefe;
+  --black: #13131a;
+  --bg: #010103;
+  --background-facebook: #dadef0;
+  --box-shadow: 0 0 2rem #fff, 0 0 2rem #6bd8d1;
+  --blue: #3266a8;
+  --box-shadow: 2px 2px 10px #fff, -2px -2px 10px #000;
+  --footer: #57628f;
+  --green-logo: #5ebab8;
+  --grey: #717171;
+  --hamburger: #6bd8d1;
+  --header: #132235;
+  --shadow-blur: 2px 2px 10px #d3ad7f, -2px -2px 10px #fff;
+
+  
 }
 * {
   font-family: "Poppins","Inter", sans-serif;
