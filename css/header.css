@@ -37,14 +37,14 @@
   padding-bottom: 0.5rem;
 }
 .header .icons div {
-  color: var(--color-logo);
+  color: var(--white);
   cursor: pointer;
   font-size: 2.5rem;
   margin-right: 2rem;
 }
 
 .header .icons div:hover {
-  color: var(--blue-face);
+  color: var(--botao-azul);
 }
 #menu-btn {
   display: none;
