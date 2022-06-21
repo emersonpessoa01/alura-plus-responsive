@@ -25,19 +25,19 @@
   padding-left: 3rem;
   transition: all 0.3s ease-in-out;
 }
-.social-media a:hover:nth-child(1) {
+.social-media a:nth-child(1) {
   color: var(--blue-face);
   transform: translateY(-2px);
 }
-.social-media a:hover:nth-child(2) {
+.social-media a:nth-child(2) {
   color: var(--blue-twitter);
   transform: translateY(-2px);
 }
-.social-media a:hover:nth-child(3) {
+.social-media a:nth-child(3) {
   color: var(--red-youtube);
   transform: translateY(-2px);
 }
-.social-media a:hover:nth-child(4) {
+.social-media a:nth-child(4) {
   /* color: var(--color-red);
   transform: translateY(-2px); */
   color: #9c47fc;
