@@ -65,3 +65,6 @@
 #menu-btn {
   display: none;
 }
+#menu-btn.color{
+  color:#fff;
+}

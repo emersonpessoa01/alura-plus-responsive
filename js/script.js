@@ -7,29 +7,38 @@ window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
 });
 
+(function () {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 0) {
+      icons.classList.add("color");
+    } else {
+      icons.classList.remove("color");
+    }
+  });
+})();
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
   navbar.classList.toggle("active");
 };
 
-const target = document.querySelectorAll('[data-anime]');
+const target = document.querySelectorAll("[data-anime]");
 
 const animationClass = "animate";
 
-function animeScroll(){
-  const windowTop = window.pageYOffset + ((window.innerHeight * 3)/4.5);
-  target.forEach(function(element){
-    if(element.offsetTop < windowTop){
-      element.classList.add(animationClass)
-    }else{
-      element.classList.remove(animationClass)
+function animeScroll() {
+  const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4.5;
+  target.forEach(function (element) {
+    if (element.offsetTop < windowTop) {
+      element.classList.add(animationClass);
+    } else {
+      element.classList.remove(animationClass);
     }
 
     // console.log(element.offsetTop)
     // console.log(window.innerHeight)
-  })
+  });
 }
-window.addEventListener("scroll",function(){
-  animeScroll()
-})
+window.addEventListener("scroll", function () {
+  animeScroll();
+});
