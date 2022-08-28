@@ -5,7 +5,7 @@
 
 ## Pré-visualização:
 
-[alura-plus-responsivo](https://alura-plus-responsive.netlify.app/)
+[alura-plus-responsivo](https://emersonpessoa01.github.io/alura-plus-responsive/)
 
 <div align="center"><img src="img/aluraplus-header.png" width=auto>
 </div>
