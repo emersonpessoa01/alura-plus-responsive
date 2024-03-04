@@ -5,7 +5,8 @@ let icons = document.querySelector("#menu-btn");
 
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
-  navbar.classList.remove("active")
+  navbar.classList.remove("active");
+  menu.classList.remove("fa-times");
 });
 
 (function () {
